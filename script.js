@@ -65,3 +65,6 @@ console.log(num4.toFixed(2))
 console.log(parseInt(num2))
 // ? parse string to int
 
+//* Boolean
+let a = true
+let b = false
