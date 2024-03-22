@@ -68,3 +68,9 @@ console.log(parseInt(num2))
 //* Boolean
 let a = true
 let b = false
+
+//* Null and Undefined
+// ? something that does not exist
+let c = null
+// ! Do not use undefined as something doesn't exists. Use null instead
+
