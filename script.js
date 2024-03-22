@@ -30,7 +30,7 @@ console.log(' HI, Im: ' + name + 'my favourite meal is' + favMeal)
 console.log(`Hi I'm ${name} and my favourite meal is ${favMeal}`)
 
 //TODO Data Types
-// * strings
+// * Strings
 // ? Typeof variable - check type od this variable
 // ? We can write strings as '' ""
 // ? To combine text use `` 
@@ -45,3 +45,23 @@ console.log(msg.toUpperCase())
 const date = new Date()
 console.log(date.toLocaleDateString('PL'))
 console.log(username.charAt(0).toUpperCase() + username.slice(1))
+
+//* Numbers
+const num1 = 23
+const num2 = '45'
+const num3 = 'abcd'
+const num4 = 1310.20
+
+console.log(num1 + num2)
+// ? output: 2345
+console.log(num2 *1)
+// ? output: 45 as a number 
+console.log(num3 *1)
+// ? output: NaN - not a number
+console.log(0/0)
+// ? output: NaN - not a number
+console.log(num4.toFixed(2))
+// ? rounds numbers to 2 decimal places
+console.log(parseInt(num2))
+// ? parse string to int
+
