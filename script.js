@@ -1,3 +1,4 @@
+//TODO Introduction
 // * Comments
 
 // * console.log and console
@@ -27,3 +28,20 @@ const favMeal = 'Chicken'
 console.log(' HI, Im: ' + name + 'my favourite meal is' + favMeal)
 // ! Use "grawis" this instead
 console.log(`Hi I'm ${name} and my favourite meal is ${favMeal}`)
+
+//TODO Data Types
+// * strings
+// ? Typeof variable - check type od this variable
+// ? We can write strings as '' ""
+// ? To combine text use `` 
+const text = '123'
+const quote = '"this is quote"'
+const msg = 'This is test message'
+const username = 'thelukcraft'
+
+console.log(msg.length)
+console.log(msg.toUpperCase())
+
+const date = new Date()
+console.log(date.toLocaleDateString('PL'))
+console.log(username.charAt(0).toUpperCase() + username.slice(1))
