@@ -74,3 +74,8 @@ let b = false
 let c = null
 // ! Do not use undefined as something doesn't exists. Use null instead
 
+//* composite types
+//? Object, Array, Function, Date, RexExp, Map, Set,
+const colors = ['red', 'green', 'blue']
+console.log(colors)
+
