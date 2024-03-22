@@ -79,3 +79,20 @@ let c = null
 const colors = ['red', 'green', 'blue']
 console.log(colors)
 
+//TODO Operators
+//* Arithmetic Operators
+//? Addition (+), Subtraction (-), Multiplication (*), Division (/),
+//? Modulus (%), Increment (++), Decrement (--)
+console.log(5 + 3); // 8
+console.log(10 - 5); // 5
+console.log(4 * 3); // 12
+console.log(10 / 2); // 5
+console.log(7 % 2); // 1
+
+let e = 1;
+a++;
+console.log(e); // 2
+
+let f = 2;
+b--;
+console.log(f); // 1
