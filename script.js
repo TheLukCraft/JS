@@ -96,3 +96,17 @@ console.log(e); // 2
 let f = 2;
 b--;
 console.log(f); // 1
+
+//* Assignment Operators
+//? Assignment (=), Addition assignment (+=), Subtraction assignment (-=)
+let g = 5;
+console.log(g); // 5
+
+let h = 10;
+h += 5; // Equivalent to d = d + 5
+console.log(h); // 15
+
+let k = 10;
+k -= 5; // Equivalent to e = e - 5
+console.log(k); // 5
+
