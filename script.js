@@ -182,3 +182,17 @@ while(m < 5) {
     m++
     console.log(m)
 }
+
+//* do while
+let n = 0
+do {
+    n++
+    console.log(n)
+} while(n < 2)
+
+//* For of
+const numbers = [1, 2, 3, 4, 5]
+
+for(const number of numbers) {
+    console.log(number *2)
+}
