@@ -253,3 +253,22 @@ const meals = ['chicken', 'spaghetti', 'soup']
 
 const menu = [...drinks, ...meals]
 console.log(menu)
+
+//* Slice, Splice
+const nums = [0, 0, 1, 1, 2, 2, 2]
+const colors3 = ['red', 'green', 'blue', true, 123]
+const cars = [123, true, 'audi', 'bmw', 'mercedes', 'ferrari', '📛', '😒']
+
+const numbers4 = nums.slice(0,2)
+console.log(numbers4)
+
+const numbers5 =  nums.slice(-3)
+console.log(numbers5)
+
+const randomStuff = colors3.splice(-2)
+console.log(colors3)
+console.log(randomStuff)
+
+const newCars = cars.splice(2, 4, 'test')
+console.log(cars)
+console.log(newCars)
