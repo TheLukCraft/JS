@@ -110,3 +110,8 @@ let k = 10;
 k -= 5; // Equivalent to e = e - 5
 console.log(k); // 5
 
+//* Comparison Operators
+//? Equal (==), Strictly equal (===), Not equal (!=),
+//? Strictly not equal (!==), Greater than (>), Less than (<),
+//? Greater than or equal to (>=), Less than or equal to (<=)
+
