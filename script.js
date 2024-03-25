@@ -196,3 +196,29 @@ const numbers = [1, 2, 3, 4, 5]
 for(const number of numbers) {
     console.log(number *2)
 }
+
+//todo Arrays and Tables
+//* methods of tables
+const numbers2 = [1, 2, 3, 4, 5]
+
+console.log(numbers2)
+
+// ? Unshift adding values as first
+numbers2.unshift(100, 200)
+console.log(numbers2)
+
+// ? shift deleting index 0
+numbers2.shift()
+
+// ?
+const colors2 = ['red', 'blue']
+
+console.log(colors2)
+
+// ? push - adding item as last in table
+colors2.push('green')
+console.log(colors2)
+
+// ? pop - removing last item
+colors2.pop()
+console.log(colors2)
