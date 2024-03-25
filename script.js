@@ -129,10 +129,27 @@ if(pass.length > 10) {
     console.log('Too short password')
 }
 
-if(color = 'blue') {
+if(color == 'blue') {
     console.log('color is blue')
 } else if (color = 'red') {
     console.log('color is red')
 } else {
     console.log('other color')
+}
+
+//* Switch
+const day = 'Mo'
+
+switch(day) {
+    case 'Mo':
+        console.log('Monday')
+        break
+    case 'Fr':
+        console.log('Friday')
+        break
+    case 'Sa':
+        console.log('Saturday')
+        break   
+    default:
+        console.log('Other day')
 }
