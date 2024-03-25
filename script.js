@@ -117,3 +117,22 @@ console.log(k); // 5
 
 //* Logical Operators
 //? And ('&&'), OR ('||'), NOT ('!')
+
+//TODO Conditional instructions
+//* If, else if, else
+const pass = '2u8odas3323'
+const color = 'blue'
+
+if(pass.length > 10) {
+    console.log('good password')
+} else {
+    console.log('Too short password')
+}
+
+if(color = 'blue') {
+    console.log('color is blue')
+} else if (color = 'red') {
+    console.log('color is red')
+} else {
+    console.log('other color')
+}
