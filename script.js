@@ -153,3 +153,16 @@ switch(day) {
     default:
         console.log('Other day')
 }
+
+//* Conditional operator
+const isLoggedIn = false
+
+function loggedIn() {
+    console.log('User is logged in')
+}
+
+function loggedOut() {
+    console.log('User is logged out')
+}
+
+isLoggedIn ? loggedIn() : loggedOut()
