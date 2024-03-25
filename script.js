@@ -272,3 +272,25 @@ console.log(randomStuff)
 const newCars = cars.splice(2, 4, 'test')
 console.log(cars)
 console.log(newCars)
+
+//* other methods
+const numbers6 =[0, 23, 48, 175, 2, 34, 11]
+
+function numFun(x) {
+    return x % 2 === 0
+}
+
+//? filter: This function creates a new array with all elements that pass the test 
+//? implemented by the provided function. It's used to select a subset of items from an array.
+const evenNumbers = numbers6.filter(numFun)
+console.log(numbers6)
+
+numbers6.forEach(v => console.log(v*5))
+
+//? includes: This function determines whether an array includes a certain value among its entries, 
+//? returning true or false as appropriate. It's used for checking if an array contains a specific item.
+console.log(numbers.includes(10))
+
+//? indexOf: This function returns the first index at which a given element can be found in the array, 
+//? or -1 if it is not present. It's used to find the position of an item in an array.
+console.log(numbers.indexOf(23))
