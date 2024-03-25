@@ -174,3 +174,11 @@ const animals = ['dog', 'cat', 'mouse', 'pig', 'parrot']
 for(let i = 0; i< animals.length; i++) {
     console.log(animals[i])
 }
+
+//* While
+let m = 0
+
+while(m < 5) {
+    m++
+    console.log(m)
+}
