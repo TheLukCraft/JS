@@ -166,3 +166,11 @@ function loggedOut() {
 }
 
 isLoggedIn ? loggedIn() : loggedOut()
+
+//TODO Loops
+//* For
+const animals = ['dog', 'cat', 'mouse', 'pig', 'parrot']
+
+for(let i = 0; i< animals.length; i++) {
+    console.log(animals[i])
+}
