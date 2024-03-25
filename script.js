@@ -215,10 +215,41 @@ const colors2 = ['red', 'blue']
 
 console.log(colors2)
 
-// ? push - adding item as last in table
+// ? push - adding item as last in table - destructive method
 colors2.push('green')
 console.log(colors2)
 
-// ? pop - removing last item
+// ? pop - removing last item - destructive method
 colors2.pop()
 console.log(colors2)
+
+//* Functions on tables
+function multiply(x) {
+    return x * 2
+}
+const numbers3 = [1,2,3,4,5]
+
+// ? map - similar to foreach. We take an array of numbers3, and then perform 
+// ? the multiply action on each element and assign to a new array
+const newNumbers = numbers3.map(multiply)
+console.log(numbers)
+console.log(newNumbers)
+
+// ? concat - non-destructive method to combine 2 arrays
+const abc = ['a', 'b', 'c']
+const d = 'd'
+const newAbcd = abc.concat(d)
+
+console.log(newAbcd)
+
+// ? spread - Spread syntax can be used when all elements from an object or array
+// ? need to be included in a new array or object, or should be applied one-by-one 
+//? in a function call's arguments list. 
+console.log(abc)
+console.log(...abc)
+
+const drinks = ['pepsi', 'coffee', 'vodka']
+const meals = ['chicken', 'spaghetti', 'soup']
+
+const menu = [...drinks, ...meals]
+console.log(menu)
