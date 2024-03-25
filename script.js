@@ -115,3 +115,5 @@ console.log(k); // 5
 //? Strictly not equal (!==), Greater than (>), Less than (<),
 //? Greater than or equal to (>=), Less than or equal to (<=)
 
+//* Logical Operators
+//? And ('&&'), OR ('||'), NOT ('!')
